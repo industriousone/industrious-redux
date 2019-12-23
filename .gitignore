@@ -1,0 +1,9 @@
+# Build files
+[Bb]in/
+[Oo]bj/
+
+# macOS system files
+.DS_Store
+
+# Visual Studio Code
+.vs/
