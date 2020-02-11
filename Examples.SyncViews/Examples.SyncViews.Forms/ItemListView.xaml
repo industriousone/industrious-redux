@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:Examples.SyncViews.Forms"
+	x:Class="Examples.SyncViews.Forms.ItemListView">
+	<StackLayout>
+		<Label
+			Text="Inbox zero!"
+			HorizontalOptions="Center"
+			VerticalOptions="CenterAndExpand"
+			IsVisible="False" />
+		<ListView
+			HorizontalOptions="Center"
+			VerticalOptions="CenterAndExpand"
+			SeparatorColor="Transparent"
+			SelectionMode="None"
+			ItemsSource="{Binding Items}"
+			IsVisible="True">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<local:ItemViewCell />
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</StackLayout>
+</ContentView>

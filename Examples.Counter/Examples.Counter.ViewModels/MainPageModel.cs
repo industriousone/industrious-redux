@@ -1,7 +1,7 @@
 ﻿using System;
 
-using Industrious.Mvvm;
 using Industrious.Redux;
+using Industrious.Mvvm;
 
 namespace Examples.Counter.ViewModels
 {
