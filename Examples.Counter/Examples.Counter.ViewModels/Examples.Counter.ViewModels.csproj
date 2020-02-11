@@ -8,7 +8,7 @@
     <PackageReference Include="Industrious.Mvvm" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Industrious.Redux\Industrious.Redux.csproj" />
     <ProjectReference Include="..\Examples.Counter\Examples.Counter.csproj" />
+    <ProjectReference Include="..\..\Industrious.Redux\Industrious.Redux.csproj" />
   </ItemGroup>
 </Project>

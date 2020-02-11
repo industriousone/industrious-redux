@@ -6,12 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991477" />
     <PackageReference Include="System.Collections.Immutable" Version="1.7.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Examples.Counter.ViewModels\Examples.Counter.ViewModels.csproj" />
-    <ProjectReference Include="..\..\Industrious.Redux\Industrious.Redux.csproj" />
     <ProjectReference Include="..\Examples.Counter\Examples.Counter.csproj" />
+    <ProjectReference Include="..\..\Industrious.Redux\Industrious.Redux.csproj" />
   </ItemGroup>
 </Project>
