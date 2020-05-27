@@ -9,9 +9,19 @@
 
 # Industrious.Redux
 
-A predictable state container for .NET applications.
+A predictable state container for .NET applications, inspired by [ReduxJS](https://redux.js.org).
 
-See [Industrious.ToDo](https://github.com/industrious/industrious-todo) for usage examples in something resembling a real application. _(Coming soon...)_
+Still in progress, though all the basics are working. See `Examples.Counter` and `Examples.SyncViews` for usage examples.
+
+To do list:
+
+- make it easier to work with collections
+- finish up the examples
+- proper docs
+- async actions
+- middleware
+
+Industrious.Redux is delivered as a .NET Standard 2.0 assembly, so it should work pretty much anywhere you do.
 
 ## Stay in touch
 
