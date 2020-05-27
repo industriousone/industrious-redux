@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Industrious.Mvvm" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Examples.Counter\Examples.Counter.csproj" />
+    <ProjectReference Include="..\..\Industrious.Redux\Industrious.Redux.csproj" />
+  </ItemGroup>
+</Project>
