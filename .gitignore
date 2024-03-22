@@ -2,8 +2,9 @@
 [Bb]in/
 [Oo]bj/
 
-# macOS system files
+# macOS files
 .DS_Store
 
-# Visual Studio Code
-.vs/
+# JetBrains Rider files
+/.idea/
+*.user
